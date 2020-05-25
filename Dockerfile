@@ -1,4 +1,3 @@
-# podman build -f Dockerfile . -t yq
 FROM wynemo/node-slim-with-python:latest as builder
 WORKDIR /app
 COPY . /app
